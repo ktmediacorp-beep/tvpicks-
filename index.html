@@ -54,6 +54,11 @@
               >Home</a
             >
             <a
+              id="nav-plans"
+              href="#plans"
+              class="hover:text-[#2563eb] hover:translate-y-[-1px] transition-all duration-200 pb-1.5 whitespace-nowrap"
+              >Plans</a>
+            <a
               id="nav-about"
               href="#about-us"
               class="hover:text-[#2563eb] hover:translate-y-[-1px] transition-all duration-200 pb-1.5 whitespace-nowrap"
@@ -129,6 +134,11 @@
         <a id="mob-nav-home" href="#home" class="mobile-nav-link text-[#2563eb]"
           >Home</a
         >
+        <a
+          id="mob-nav-plans"
+          href="#plans"
+          class="mobile-nav-link hover:text-[#2563eb] transition-colors"
+          >Plans</a>
         <a
           id="mob-nav-about"
           href="#about-us"
@@ -687,6 +697,214 @@
         </div>
       </div>
       <!-- End of home-view -->
+
+      <!-- Plans View Section -->
+      <div id="plans-view" class="hidden my-12 w-full">
+        <div
+          class="bg-white rounded-[32px] shadow-lg border border-slate-100 overflow-hidden relative min-h-[600px] w-full p-8 md:p-12 lg:p-16"
+        >
+          <div
+            class="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-blue-600 via-red-500 to-blue-600 opacity-90 z-20"
+          ></div>
+
+          <div class="text-center max-w-3xl mx-auto mb-16 relative z-20">
+            <h1
+              class="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-4"
+            >
+              Our Subscription <span class="text-[#2563eb]">Plans</span>
+            </h1>
+            <p class="text-slate-600 text-lg">
+              Choose the perfect package from our top providers. Premium
+              quality, reliable service, and 24/7 support.
+            </p>
+            <div class="flex items-center justify-center gap-1.5 mt-6">
+              <div class="w-16 h-1 bg-[#1e3a8a] rounded-full"></div>
+              <div class="w-2.5 h-2.5 bg-blue-500 rounded-sm"></div>
+              <div class="w-2.5 h-2.5 bg-red-500 rounded-sm"></div>
+            </div>
+          </div>
+
+          <!-- Consolidated Providers Section -->
+          <div class="mb-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] mx-auto relative z-20">
+              
+              <!-- VYZ Packages Card -->
+              <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group">
+                <div class="p-8 pb-6 border-b border-slate-100 bg-slate-50 flex flex-col items-center">
+                  <img
+                    src="https://www.vzy.co.in/assets/vzy-favicon-BqMjm7Bc.png"
+                    onerror="this.src='https://placehold.co/150x50/1e3a8a/white?text=VYZ'"
+                    alt="VYZ Logo"
+                    class="h-12 md:h-16 lg:h-20 object-contain mb-4"
+                  />
+                  <h3 class="text-xl font-bold text-slate-800 mb-2">VYZ Packages</h3>
+                  <div class="flex items-center gap-2 mt-2">
+                    <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+                      OTT Subscriptions
+                    </span>
+                  </div>
+                </div>
+                <div class="p-8 flex-1 flex flex-col">
+                  <p class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 text-center">
+                    Top Premium Apps Included
+                  </p>
+                  <ul class="space-y-4 mb-8 flex-1">
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">JioHotstar & Sony Liv</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Zee5 & VYZ Exclusives</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">FanCode & Hungama</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Shorts TV & AaoNXT</span>
+                    </li>
+                  </ul>
+                  <div class="flex flex-col gap-3 mt-auto">
+                    <a
+                      href="https://github.com/ktmediacorp-beep/tvpicks-/blob/main/VYZ_Plans.pdf"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-[#2563eb] text-white py-3 rounded-lg font-bold hover:bg-[#1e3a8a] transition-colors shadow-md"
+                    >
+                      <i data-lucide="file-down" class="w-5 h-5"></i> View VYZ Plans PDF
+                    </a>
+                    <a
+                      href="https://wa.me/918588853774"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-slate-100 text-slate-800 border border-slate-200 py-3 rounded-lg font-bold hover:bg-slate-200 transition-colors"
+                    >
+                      <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Inquiry
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Zigg TV Card -->
+              <div class="bg-white rounded-2xl border-2 border-[#2563eb] shadow-md hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden relative transform lg:-translate-y-4">
+                <div class="absolute top-0 inset-x-0 bg-[#2563eb] text-white text-[11px] font-bold uppercase tracking-wider text-center py-1.5 z-10">
+                  Most Popular Choice
+                </div>
+                <div class="p-8 pb-6 border-b border-blue-50 bg-blue-50/50 flex flex-col items-center pt-10">
+                  <img
+                    src="https://ziggtv.com/admin/assets/uploads/site/1779455475_logo_logo-2.png"
+                    onerror="this.src='https://placehold.co/150x50/1e3a8a/white?text=Zigg+TV'"
+                    alt="Zigg TV Logo"
+                    class="h-12 md:h-16 lg:h-20 object-contain mb-4"
+                  />
+                  <h3 class="text-xl font-bold text-slate-800 mb-2">Zigg TV Packages</h3>
+                  <div class="flex items-center gap-2 mt-2">
+                    <span class="px-3 py-1 rounded-full bg-white text-[#2563eb] text-xs font-bold border border-blue-200">
+                      IPTV & Live TV
+                    </span>
+                  </div>
+                </div>
+                <div class="p-8 flex-1 flex flex-col">
+                  <p class="text-xs font-bold text-[#2563eb] uppercase tracking-wider mb-4 text-center">
+                    All-in-One Entertainment
+                  </p>
+                  <ul class="space-y-4 mb-8 flex-1">
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-[#2563eb] shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-bold">10,000+ Live Channels</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-[#2563eb] shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-bold">Massive VOD Library</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">4K & Full HD Quality</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Smart TV, Android & Firestick</span>
+                    </li>
+                  </ul>
+                  <div class="flex flex-col gap-3 mt-auto">
+                    <a
+                      href="https://github.com/ktmediacorp-beep/tvpicks-/blob/main/Zigg_Plans.pdf"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-[#2563eb] text-white py-3 rounded-lg font-bold hover:bg-[#1e3a8a] transition-colors shadow-md shadow-blue-500/20"
+                    >
+                      <i data-lucide="file-down" class="w-5 h-5"></i> View Zigg Plans PDF
+                    </a>
+                    <a
+                      href="https://wa.me/918588853774"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-slate-100 text-slate-800 border border-slate-200 py-3 rounded-lg font-bold hover:bg-[#2563eb] hover:text-white hover:border-[#2563eb] transition-colors"
+                    >
+                      <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Inquiry
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Umbrella IPTV Card -->
+              <div class="bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group">
+                <div class="p-8 pb-6 border-b border-slate-100 bg-slate-50 flex flex-col items-center">
+                  <img
+                    src="https://static.wixstatic.com/media/d80506_d1574c615e2b4fe6a7af035e1df486bd~mv2.png"
+                    alt="Umbrella IPTV Logo"
+                    class="h-12 md:h-16 lg:h-20 object-contain mb-4"
+                  />
+                  <h3 class="text-xl font-bold text-slate-800 mb-2">Umbrella Packages</h3>
+                  <div class="flex items-center gap-2 mt-2">
+                    <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">
+                      Premium IPTV
+                    </span>
+                  </div>
+                </div>
+                <div class="p-8 flex-1 flex flex-col">
+                  <p class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-4 text-center">
+                    Extensive Global Content
+                  </p>
+                  <ul class="space-y-4 mb-8 flex-1">
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">18,000+ Worldwide Channels</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Movies & Series Library</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Global Sports Packages</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                      <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500 shrink-0 mt-0.5"></i>
+                      <span class="text-sm text-slate-700 font-medium">Anti-Freeze Technology</span>
+                    </li>
+                  </ul>
+                  <div class="flex flex-col gap-3 mt-auto">
+                    <a
+                      href="https://github.com/ktmediacorp-beep/tvpicks-/blob/main/Umbrella_Packages.pdf"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-[#2563eb] text-white py-3 rounded-lg font-bold hover:bg-[#1e3a8a] transition-colors shadow-md"
+                    >
+                      <i data-lucide="file-down" class="w-5 h-5"></i> View Umbrella Plans PDF
+                    </a>
+                    <a
+                      href="https://wa.me/918588853774"
+                      target="_blank"
+                      class="w-full flex items-center justify-center gap-2 bg-slate-100 text-slate-800 border border-slate-200 py-3 rounded-lg font-bold hover:bg-slate-200 transition-colors"
+                    >
+                      <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Inquiry
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- About Us View Section -->
       <div id="about-view" class="hidden w-full">
@@ -1357,6 +1575,7 @@
       function updateNavActiveState(activeId) {
         const links = [
           "nav-home",
+          "nav-plans",
           "nav-about",
           "nav-privacy",
           "nav-refund",
@@ -1391,6 +1610,7 @@
       function handleRouting() {
         const hash = window.location.hash || "#home";
         const homeView = document.getElementById("home-view");
+        const plansView = document.getElementById("plans-view");
         const aboutView = document.getElementById("about-view");
         const privacyView = document.getElementById("privacy-policy-view");
         const refundView = document.getElementById("refund-policy-view");
@@ -1399,7 +1619,23 @@
         const mainEl = document.querySelector("main");
         const footerEl = document.querySelector("footer");
 
-        if (hash === "#about-us") {
+        if (hash === "#plans") {
+          if (mainEl) {
+            mainEl.className = "w-full";
+          }
+          if (footerEl) {
+            footerEl.className = "bg-transparent pt-12 pb-6 px-4 sm:px-6 lg:px-8";
+          }
+          homeView.classList.add("hidden");
+          if (plansView) plansView.classList.remove("hidden");
+          aboutView.classList.add("hidden");
+          if (privacyView) privacyView.classList.add("hidden");
+          if (refundView) refundView.classList.add("hidden");
+          if (termsView) termsView.classList.add("hidden");
+          if (contactView) contactView.classList.add("hidden");
+          updateNavActiveState("nav-plans");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else if (hash === "#about-us") {
           if (mainEl) {
             mainEl.className = "w-full";
           }
@@ -1408,6 +1644,7 @@
           }
           homeView.classList.add("hidden");
           aboutView.classList.remove("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.add("hidden");
           if (refundView) refundView.classList.add("hidden");
           if (termsView) termsView.classList.add("hidden");
@@ -1423,6 +1660,7 @@
           }
           homeView.classList.add("hidden");
           aboutView.classList.add("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.remove("hidden");
           if (refundView) refundView.classList.add("hidden");
           if (termsView) termsView.classList.add("hidden");
@@ -1438,6 +1676,7 @@
           }
           homeView.classList.add("hidden");
           aboutView.classList.add("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.add("hidden");
           if (refundView) refundView.classList.remove("hidden");
           if (contactView) contactView.classList.add("hidden");
@@ -1452,6 +1691,7 @@
           }
           homeView.classList.add("hidden");
           aboutView.classList.add("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.add("hidden");
           if (refundView) refundView.classList.add("hidden");
           if (termsView) termsView.classList.remove("hidden");
@@ -1467,6 +1707,7 @@
           }
           homeView.classList.add("hidden");
           aboutView.classList.add("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.add("hidden");
           if (refundView) refundView.classList.add("hidden");
           if (termsView) termsView.classList.add("hidden");
@@ -1481,7 +1722,9 @@
             footerEl.className = "bg-transparent border-t border-slate-200 mt-2 pt-12 pb-6 px-4 sm:px-6 lg:px-8";
           }
           homeView.classList.remove("hidden");
+          if (plansView) plansView.classList.add("hidden");
           aboutView.classList.add("hidden");
+          if (plansView) plansView.classList.add("hidden");
           if (privacyView) privacyView.classList.add("hidden");
           if (refundView) refundView.classList.add("hidden");
           if (termsView) termsView.classList.add("hidden");
